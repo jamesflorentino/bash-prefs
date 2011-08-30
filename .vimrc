@@ -15,9 +15,12 @@ set number
 set ai
 set history=100
 set ruler
+set tabstop=4
+set shiftwidth=4
+set showmatch
+
 syntax on
 set hlsearch
-set tabstop=4
 filetype plugin on
 filetype plugin indent on
 call pathogen#infect()
